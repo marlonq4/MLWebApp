@@ -1,0 +1,64 @@
+2021-09-24 20:29:11,471:INFO:Initializing load_model()
+2021-09-24 20:29:11,479:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=deployment_28042020)
+2021-09-24 20:29:15,172:INFO:Initializing load_model()
+2021-09-24 20:29:15,172:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=deployment_28042020)
+2021-09-24 20:35:56,536:INFO:Initializing load_model()
+2021-09-24 20:35:56,536:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=deployment_28042020)
+2021-09-24 20:36:00,526:INFO:Initializing load_model()
+2021-09-24 20:36:00,526:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=deployment_28042020)
+2021-09-24 20:38:51,996:INFO:Initializing load_model()
+2021-09-24 20:38:51,996:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=deployment_28042020)
+2021-09-24 20:38:55,871:INFO:Initializing load_model()
+2021-09-24 20:38:55,876:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=deployment_28042020)
+2021-09-24 20:42:33,709:INFO:Initializing predict_model()
+2021-09-24 20:42:33,709:INFO:predict_model(display=None, ml_usecase=MLUsecase.REGRESSION, verbose=True, round=0, raw_score=False, encoded_labels=True, probability_threshold=None, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='charges',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model', LinearRegression(n_jobs=-1)]]))
+2021-09-24 20:42:33,709:INFO:Checking exceptions
+2021-09-24 20:42:33,709:INFO:Preloading libraries
+2021-09-24 20:43:38,009:INFO:Initializing predict_model()
+2021-09-24 20:43:38,009:INFO:predict_model(display=None, ml_usecase=MLUsecase.REGRESSION, verbose=True, round=0, raw_score=False, encoded_labels=True, probability_threshold=None, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='charges',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model', LinearRegression(n_jobs=-1)]]))
+2021-09-24 20:43:38,009:INFO:Checking exceptions
+2021-09-24 20:43:38,009:INFO:Preloading libraries
